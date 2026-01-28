@@ -23,9 +23,9 @@
 ### reject
 1. **reject**: 直接断开连接
 2. **reject-200**: 返回一个code为200，body内容为空的response
-3. **reject_img**: 返回一个code为200，body内容一像素图片的的response
-4. **reject_dict**: 返回一个code为200，body内容为`"{}"`的空json对象字符串
-5. **reject_array**: 返回一个code为200，body内容为`"[]"`的空json数组字符串
+3. **reject-img**: 返回一个code为200，body内容一像素图片的的response
+4. **reject-dict**: 返回一个code为200，body内容为`"{}"`的空json对象字符串
+5. **reject-array**: 返回一个code为200，body内容为`"[]"`的空json数组字符串
 ```
  ^http://example.com reject
  ^http://example.com reject-200

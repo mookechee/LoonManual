@@ -4,7 +4,7 @@ Loon（截止Build 427）支持四种DNS查询，
 - 标准UDP查询
 - DNS-over-HTTPS
 - DNS-over-QUIC
-- DNS-over—HTTP3
+- DNS-over-HTTP3
 
 ## 相关配置
 

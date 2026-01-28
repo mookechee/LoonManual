@@ -28,5 +28,5 @@ DOMAIN,apple.com,DIRECT
 - REJECT (返回200 响应空的响应体)
 - REJECT-IMG (返回200和一个 1px GIF 的响应体)
 - REJECT-DICT (返回200和内容为空的 JSON 的响应体)
-- REJECT-ARRY (返回200和一个内容为空的 JSON 数组)
+- REJECT-ARRAY (返回200和一个内容为空的 JSON 数组)
 - REJECT-DROP (拒绝并丢弃请求，且不会返回任何响应。因为部分程序有着十分暴力的重试逻辑，连接失败后会立刻进行重试，导致请求风暴)

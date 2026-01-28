@@ -24,10 +24,10 @@ doh-server = https://doh.dns.apple.com/dns-query
 ## doq-server
 DNS over QUIC服务器，用,隔开多个服务器，默认端口784
 ```
-doh-server = quic://example.com, quic://example2.com
+doq-server = quic://example.com, quic://example2.com
 ```
 ## doh3-server
-DNS over HTTPS服务器，用,隔开多个服务器
+DNS over HTTP/3服务器，用,隔开多个服务器
 ```
 doh3-server = h3://223.6.6.6/dns-query
 ```
